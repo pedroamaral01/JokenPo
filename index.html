@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Joken Pô</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>JokenPô</h1>
+
+        <div class="buttons">
+            <button id="pedra"  onclick="jogadorHumano('pedra')">&#x1F44A</button>
+            <button id="papel"  onclick="jogadorHumano('papel')">&#x1f590</button>
+            <button id="tesoura"  onclick="jogadorHumano('tesoura')">&#x270c</button>
+        </div>
+
+        <p class="seu-score">Sua pontuação: <span class="scoreHumano">0</span> </p>
+        <p class="robo-score">Pontuação Robo: <span class="scoreRobo">0</span> </p>
+
+        <p class="resultado"></p>
+    </div>
+</body>
+    <script src="scripts.js"></script>
+</html>
